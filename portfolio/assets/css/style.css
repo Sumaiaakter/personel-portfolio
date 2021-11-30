@@ -1285,6 +1285,39 @@ a:hover {
   color: #fff;
 }
 
+/* form submit */
+.submit-form{
+  background-color: rgb(173, 172, 172);
+  box-shadow: 5px 5px 10px lightslategray;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 500px; */
+  height: 80vh;
+}
+form{
+  width: 800px;
+}
+
+input,textarea{
+  display: block;
+  padding: 6px 4px;
+  margin: 4px;
+  width: 60%;
+}
+button{
+  background-color: #f05108;
+  text-align: center;
+  align-items: center;
+  padding: 6px 2px;
+  margin-top: 4px;
+  width: 60%;
+  border-radius: 4px;
+
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
