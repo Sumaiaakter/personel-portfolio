@@ -1,9 +1,4 @@
-/**
-* Template Name: DevFolio - v4.7.1
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -24,6 +19,22 @@ h6 {
 
 .resume{
   border-radius: 5px;
+  color: white;
+}
+.resume a{
+  text-decoration: none;
+}
+
+button{
+  width: 100px;
+  color: white;
+}
+.logo{
+  color: white;
+}
+
+.logo:hover{
+  color: #f05108;
 }
 
 a {
@@ -43,7 +54,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #0078ff;
+  color: #f05108;
 }
 
 .color-d {
@@ -96,7 +107,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #fca685;
+  background-color: #918e8d;
 }
 
 .overlay-mf {
@@ -141,7 +152,7 @@ a:hover {
 /*--/ Title s /--*/
 
 .title{
-  color: #080cf0;
+  color: #f05108;
 }
 .title-s {
   font-weight: 600;
@@ -169,7 +180,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #f05108;
   margin: 0 auto;
 }
 
@@ -186,7 +197,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #f05108;
   width: 100px;
   bottom: -12px;
 }
@@ -298,7 +309,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #f05108;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -322,7 +333,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #f05108;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -334,7 +345,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #298eff;
+  background: #f3b395;
   color: #fff;
 }
 .back-to-top.active {
@@ -360,7 +371,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #f05108;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -404,14 +415,14 @@ a:hover {
   outline: 0;
 }
 .button:hover {
-  background-color: #0062d3;
+  background-color: #f05108;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
   text-decoration: none;
-  background-color: #0078ff;
+  background-color: #f05108;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -764,14 +775,14 @@ a:hover {
   color: #4e4e4e;
 }
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #fabda1;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #f05108;
 }
 
 /*--------------------------------------------------------------
@@ -818,7 +829,7 @@ a:hover {
 # Counter
 --------------------------------------------------------------*/
 .counter-box {
-  color: rgb(2, 2, 2);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 @media (min-width: 577px) {
@@ -834,7 +845,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.5;
-  box-shadow: 0 0 0 10px #3a07f3;
+  box-shadow: 0 0 0 10px #f05108;
 }
 
 .counter-num .counter {
@@ -1124,7 +1135,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #f05108;
   border-radius: 4px;
 }
 .card-blog .card-category .category {
@@ -1138,6 +1149,7 @@ a:hover {
 .card-blog .card-title {
   font-size: 1.3rem;
   margin-top: 0.6rem;
+  color: #f05108;
 }
 .card-blog .card-description {
   color: #4e4e4e;
@@ -1149,6 +1161,10 @@ a:hover {
   color: #4e4e4e;
   display: inline-block;
   float: right;
+}
+
+.travel-blog{
+  color: #f05108;
 }
 
 /*--------------------------------------------------------------
@@ -1267,8 +1283,8 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #f05108;
+  border-color: #f05108;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
