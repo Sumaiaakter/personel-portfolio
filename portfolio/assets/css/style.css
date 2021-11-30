@@ -16,7 +16,9 @@ h5,
 h6 {
   color: #1e1e1e;
 }
-
+.hire button{
+display: inline;
+}
 .resume{
   border-radius: 5px;
   color: white;
@@ -26,7 +28,7 @@ h6 {
 }
 
 button{
-  width: 100px;
+  width: 50px;
   color: white;
 }
 .logo{
