@@ -16,26 +16,24 @@ h5,
 h6 {
   color: #1e1e1e;
 }
-.hire button{
-display: inline;
-}
+
 .resume{
   border-radius: 5px;
   color: white;
 }
 .resume a{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
   text-decoration: none;
 }
 
-button{
-  width: 50px;
-  color: white;
-}
-.logo{
+
+.logo a{
   color: white;
 }
 
-.logo:hover{
+.logo a:hover{
   color: #f05108;
 }
 
@@ -45,7 +43,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #0078ff;
+  color: #f05108;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
